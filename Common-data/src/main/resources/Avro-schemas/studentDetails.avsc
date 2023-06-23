@@ -1,0 +1,35 @@
+{
+  "type": "record",
+  "name": "Student",
+  "namespace":"com.motivity.schema",
+  "fields": [
+    {
+      "name": "studentId",
+      "type": "int"
+    },
+    {
+      "name": "studentName",
+      "type": "string"
+    },
+    {
+      "name": "course",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "phoneNumber",
+      "type": "long"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    }
+  ]
+}
